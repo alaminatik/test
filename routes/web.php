@@ -27,7 +27,6 @@ Route::get('/hedddllo', function(){
  return "ddd";
 });
 
-<<<<<<< HEAD
 
 
 Route::get('/', function () {
@@ -39,5 +38,3 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('welcome');
 });
-=======
->>>>>>> dd1ad3c411e551d4c0d08d6eba7862794a37ad44
