@@ -20,3 +20,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::middleware('auths:apis')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::middleware('demo:apis')->get('/user', function (Request $request) {
+    return $request->user();
+});
