@@ -38,3 +38,11 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/Test', function () {
+    return view('Test');
+});
+Route::get('/Test', function () {
+    return view('Test');
+});
