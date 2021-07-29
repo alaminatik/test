@@ -50,3 +50,6 @@ Route::get('/Test', function () {
 Route::get('/demo', function () {
     return view('demo');
 });
+Route::get('/sddsdsd', function () {
+    return view('demo');
+});
